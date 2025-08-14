@@ -3,14 +3,37 @@
  */
 
 package pe.edu.upeu;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  *
  * @author SOFTWARE
  */
 public class POOG3 {
+    
+    class persona(
+            String nombre;
+            double nota ;
+            
+            
+            public Persona(String nombre, double nota )
+                    this.nombre = nombre;
+                    this.nota = nota;
+            
+            
+            
+            
+            
+            )
+    
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        List<Persona> p=new ArrayList<>();
+        p.add(new Persona)
+        
+        
+        
+        
     }
 }

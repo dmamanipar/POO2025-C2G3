@@ -7,33 +7,38 @@ package pe.edu.upeu;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DaivdMP {
+/**
+ *
+ * @author SOFTWARE
+ */
+public class BrandonAndreeCcallaColquehuanca {
     
-    
-    static class Persona{
+    static class Persona { 
         String nombre;
         double nota;
 
+        // Constructor
         public Persona(String nombre, double nota) {
             this.nombre = nombre;
             this.nota = nota;
-        }    
+        }
+
+        @Override
+        public String toString() {
+            return "Nombre: " + nombre + ", Nota: " + nota;
+        }
     }
     
     public static void main(String[] args) {
-        List<Persona> p=new ArrayList<>();
-        p.add(new Persona("David", 15));
-        p.add(new Persona("Pedro", 15));
-        p.add(new Persona("Juan", 20));
+        List<Persona> p = new ArrayList<>();
+
+        p.add(new Persona("David", 16));
+        p.add(new Persona("Juan", 16));
+        p.add(new Persona("Pedro", 20));
         p.add(new Persona("Raul", 16));
-        System.out.println("Holas");
+                
         for (Persona persona : p) {
-            System.out.println(persona.nombre+"\t"+persona.nota);
+            System.out.println(persona);
         }
-        
-        //Pruebas
-        
     }
 }
-
-//hola mundo 
