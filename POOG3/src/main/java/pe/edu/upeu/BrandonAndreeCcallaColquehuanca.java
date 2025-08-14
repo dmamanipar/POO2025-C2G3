@@ -13,7 +13,7 @@ import java.util.List;
  */
 public class BrandonAndreeCcallaColquehuanca {
     
-    static class Persona {  // Cambié a mayúscula para seguir la convención de Java
+    static class Persona { 
         String nombre;
         double nota;
 
@@ -23,7 +23,6 @@ public class BrandonAndreeCcallaColquehuanca {
             this.nota = nota;
         }
 
-        // Método toString para imprimir los detalles
         @Override
         public String toString() {
             return "Nombre: " + nombre + ", Nota: " + nota;
@@ -31,17 +30,15 @@ public class BrandonAndreeCcallaColquehuanca {
     }
     
     public static void main(String[] args) {
-        List<Persona> p = new ArrayList<>();  // Corregido la declaración de la lista
+        List<Persona> p = new ArrayList<>();
 
-        // Añadiendo personas a la lista
         p.add(new Persona("David", 16));
         p.add(new Persona("Juan", 16));
         p.add(new Persona("Pedro", 20));
         p.add(new Persona("Raul", 16));
                 
-        // Imprimiendo los datos de cada persona
         for (Persona persona : p) {
-            System.out.println(persona);  // Esto imprimirá el resultado del método toString
+            System.out.println(persona);
         }
     }
 }
