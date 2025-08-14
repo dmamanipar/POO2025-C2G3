@@ -31,5 +31,7 @@ public class DaivdMP {
             System.out.println(persona.nombre+"\t"+persona.nota);
         }
         
+        //Pruebas
+        
     }
 }
