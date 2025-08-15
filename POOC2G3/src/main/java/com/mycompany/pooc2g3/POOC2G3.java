@@ -6,7 +6,7 @@ package com.mycompany.pooc2g3;
 
 /**
  *
- * @author SAC
+ * @author JULIO ISAAC APAZA ARAPA CICLO 2 GRUPO 3
  */
 public class POOC2G3 {
 
